@@ -1,25 +1,24 @@
 {
-    "name": "tentail/identity-card",
-    "description": "ID number validation and maker.",
+    "name": "tentail/twid",
+    "description": "Taiwan ID Number validation and maker.",
     "type": "package",
     "license": "MIT",
     "keywords": [
-        "theqwan",
         "identity card",
         "ID number"
     ],
     "authors": [
         {
             "name": "Wei-Cheng Shi",
-            "email": "tentail.shi@theqwan.com,tentail10@gmail.com",
+            "email": "tentail10@gmail.com;tentail.shi@theqwan.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": "^7.0",
+        "illuminate/support": "^5.6",
     },
     "require-dev": {
-        "illuminate/support": "^5.6",
         "phpunit/phpunit": "^7.2",
         "squizlabs/php_codesniffer": "^3.3"
     },
@@ -30,7 +29,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Meditate\\SmartDove\\Tests\\": "tests/"
+            "Meditate\\IdentityCard\\Tests\\": "tests/"
         }
     },
     "scripts": {
