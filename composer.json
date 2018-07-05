@@ -1,24 +1,29 @@
 {
-    "name": "tentail/twid",
+    "name": "meditate/twid",
     "description": "Taiwan ID Number validation and maker.",
     "type": "package",
     "license": "MIT",
     "keywords": [
+        "taiwan",
         "identity card",
-        "ID number"
+        "ID number",
+        "validation",
+        "laravel",
+        "laravel-dojo",
+        "meditate"
     ],
     "authors": [
         {
             "name": "Wei-Cheng Shi",
-            "email": "tentail10@gmail.com;tentail.shi@theqwan.com",
+            "email": "tentail10@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.0",
-        "illuminate/support": "^5.6",
+        "php": "^7.0"
     },
     "require-dev": {
+        "illuminate/support": "^5.3",
         "phpunit/phpunit": "^7.2",
         "squizlabs/php_codesniffer": "^3.3"
     },
