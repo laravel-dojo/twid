@@ -1,10 +1,8 @@
 <?php
 
-namespace Meditate\IdentityCard\Services;
+namespace Meditate\IdentityCard;
 
-use Meditate\IdentityCard\Contracts\IdentityCard;
-
-class TaiwanIdentityCard implements IdentityCard
+class TaiwanIdentityCard
 {
     /**
      * The number which the first letter represents.

@@ -2,7 +2,7 @@
 
 namespace Meditate\IdentityCard;
 
-use Meditate\IdentityCard\Services\TaiwanIdentityCard;
+use Meditate\IdentityCard\TaiwanIdentityCard;
 
 class IdentityCardValidator
 {

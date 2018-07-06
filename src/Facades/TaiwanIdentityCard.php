@@ -2,11 +2,11 @@
 
 namespace Meditate\IdentityCard\Facades;
 
-use Meditate\IdentityCard\Services\TaiwanIdentityCard as TaiwanIdentityCardService;
+use Meditate\IdentityCard\TaiwanIdentityCard as TaiwanIdentityCardService;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Meditate\IdentityCard\Services\TaiwanIdentityCard
+ * @see \Meditate\IdentityCard\TaiwanIdentityCard
  */
 class TaiwanIdentityCard extends Facade
 {
