@@ -6,10 +6,10 @@ meditate/twid is PHP Library to validate and make Taiwan ID Number.
 
 - [Installation](#installation)
 - [Usage](#usage)
-    - [Basic](#Basic)
-    - [Facade](#Facade)
-    - [Laravel validation](#Laravel validation)
-- [License](#License)
+    - [Basic](#basic)
+    - [Facade](#facade)
+    - [Laravel validation](#laravel-validation)
+- [License](#license)
 
 ## Installation
 
