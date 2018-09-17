@@ -36,27 +36,27 @@ If you are Laravel project, add twid facade in `app/config/app.php`:
 ```php
 use Meditate\IdentityCard\TaiwanIdentityCard;
 
-$taiwan_id_card = new TaiwanIdentityCard;
+$taiwanIdCard = new TaiwanIdentityCard;
 ```
 
 Now, you can use `check` method to validate ID Number:
 
 ```php
-$taiwan_id_card->check('A123456789'); // true
-$taiwan_id_card->check('A223456789'); // false
+$taiwanIdCard->check('A123456789'); // true
+$taiwanIdCard->check('A223456789'); // false
 ```
 
 Or generate a fake ID Number:
 
 ```php
 // A123456789
-$taiwan_id_card->make();
+$taiwanIdCard->make();
 
 // B167663827
-$taiwan_id_card->make('B');
+$taiwanIdCard->make('B');
 
 // A259776352
-$taiwan_id_card->make('A', 2);
+$taiwanIdCard->make('A', 2);
 ```
 
 ### Facade
