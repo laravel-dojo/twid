@@ -37,7 +37,7 @@ class TaiwanIdentityCard
 
         $id_number_chars = str_split($id_number);
 
-        if (!in_array($id_number_chars[1], [1, 2])) {
+        if (!in_array($id_number_chars[1], [1, 2, 8, 9])) {
             return false;
         }
 
@@ -66,8 +66,8 @@ class TaiwanIdentityCard
 
         if (is_null($gender)) {
             $gender = random_int(1, 2);
-        } elseif (!(is_int($gender) && in_array($gender, [1, 2]))) {
-            throw new \Exception("Argument 2 must be of the integer 1 or 2", 1);
+        } elseif (!(is_int($gender) && in_array($gender, [1, 2, 8, 9]))) {
+            throw new \Exception("Argument 2 must be of the integer 1, 2, 8 or 9", 1);
         }
 
         $fake_id_number = $location . $gender . random_int(1000000, 9999999);
