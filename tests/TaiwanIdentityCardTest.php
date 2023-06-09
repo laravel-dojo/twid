@@ -55,5 +55,4 @@ class TaiwanIdentityCardTest extends TestCase
         $id_card = new TaiwanIdentityCard();
         $id_card->make('A', 3);
     }
-
 }
